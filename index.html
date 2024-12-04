@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Задача про 100</title>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="container">
+      <div class="stamp">
+        <div class="stamp_circ">
+          <div class="circ blink1"></div>
+          <div class="circ blink2"></div>
+          <div class="circ blink3"></div>
+        </div>
+        <div class="stamp_text"><h4>author: Гречишников Олег</h4><h4>Задача про 100</h4></div>
+      </div>
+      <div id="root" class="content">
+         <h3>Мини-игра: Секретное число (Компьютеры играют друг с другом)</h3>
+        <div class="description">
+          <h4>Описание:</h4>
+          <p>Два компьютера играют друг с другом в угадывание числа:</p>
+          <ul>
+            <li><b>Компьютер 1</b> загадывает число от 1 до 100</li>
+            <li><b>Компьютер 2</b> пытается угадать число</li>
+          </ul>
+          <p>Для угадывания второй компьютер использует стратегию бинарного поиска: он начинает с середины возможного диапазона и 
+              уточняет диапазон в зависимости от подсказок <code><b>меньше</b></code> или <code><b>больше</b></code>.</p>
+          <p>Программа должна выводить шаги игры: попытки, диапазоны и результат в консоль. Для промотра результатов откройте консоль
+            и нажмите кнопку "Старт".
+          </p>
+        </div>
+        <button id="btn" onclick="startGame()">Старт</button>
+      </div>
+    </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
