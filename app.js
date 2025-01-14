@@ -1,3 +1,4 @@
+
 function startGame() {
   const first = "Компьютер2: Пробую число ";
   const second = "Компьютер1: ";
